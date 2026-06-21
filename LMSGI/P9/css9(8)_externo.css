@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+
+    
+    p {
+        border-width: 2px;
+        border-style: solid;
+        border-color: #C00;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+    }
+}

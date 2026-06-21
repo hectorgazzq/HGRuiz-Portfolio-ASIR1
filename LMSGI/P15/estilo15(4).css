@@ -1,0 +1,12 @@
+body {
+    color: white;                                  
+    font-size: 20px;                              
+    font-family: "Times New Roman", serif;       
+    background-image: url('https://picsum.photos/1200/800'); 
+    background-repeat: no-repeat;
+}
+
+p {
+    background-color: green;                      
+    padding: 15px;                                  
+}

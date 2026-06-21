@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio 11(2)</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      /*tamaño predeterminado de texto 16px*/
+      span {
+        font-size: 2em; /*32px*/
+      }
+      h2 {
+        font-size: 1.5em; /*36px*/
+        border: 0.5em dashed green; /*12px*/
+      }
+      div {
+        font-size: 24px;
+        background-color: yellow;
+        width: 50%;
+      }
+      p.letra1 {
+        background-color: red;
+        width: 33%;
+      }
+      span#s1 {
+        font-size: 1ex;
+      }
+      p.letra2 {
+        font-size: 400%; /*96px*/
+        background-color: yellow;
+        width: 500px;
+      }
+
+      /*Tras probar todo, cambiar el tamaño de la letra del navegador en ajustes/General a 72, se verá que todo lo relativo cambia excepto los px, esto genera problemas de accesibilidad para los que quieren ver otro tamaño cambiando las opciones de navegador*/
+    </style>
+  </head>
+  <body>
+    body Mola x
+    <br />
+    <span>span Mola x</span>
+    <h2>h2 Mola x</h2>
+    <div>
+      div Mola x
+      <p class="letra1">p letra1 Texto</p>
+      <p>
+        p Especifican su longitud en referencia a otra longitud
+        <span id="s1">span s1 x</span>x.
+      </p>
+      <p class="letra2">
+        p letra2 Estas son las unidades relativas: em, ex, px, %
+      </p>
+    </div>
+  </body>
+</html>

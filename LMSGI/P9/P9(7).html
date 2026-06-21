@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head> 
+<title>Practica 9(7): Ejemplo del resultado de usar estilos para dsitintos medios con la marca style</title> 
+<meta charset="utf-8">
+<style type="text/css" media="screen">
+	div#caja1 { 
+	border-width: 1px; 
+	border-style: dashed;
+	border-color: #000; 
+	padding: 10px; 
+	width: 50%; 
+	margin-bottom: 10px; 
+	background-color: silver;
+}
+	.titulo { 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase; 
+	color: #000; 
+	font-style: normal; 
+	text-align: center; 
+	background-color: cyan;
+}
+.autor { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666; 
+	font-weight: lighter; 
+	text-align: center;
+	background-color: yellow;
+} 
+.cuerpo { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333; 
+	background-color: white;
+}
+</style>
+
+<style type="text/css" media="print">
+	div#caja2 { 
+	padding: 10px; 
+	width: 70%; 
+	background-color: yellow;
+} 
+.titulo2 { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00f; 
+	text-transform: uppercase; 
+} 
+.autor2 { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f00; 
+} 
+.cuerpo2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px; 
+	color: #050; 
+}
+</style>
+
+</head> 
+<body> 
+<!--Primera caja-->
+<div id="caja1"> 
+	<h2 class="titulo">Hojas de estilo CSS [En pantalla]</h2>
+	<h3 class="autor">Por Pedro Guerrero</h3> 
+	<p class="cuerpo">Utilizar hojas de estilo otorga esta flexibilidad creativa de poder usar estilos diferentes en función del medio o el dispositivo sobre el que se va a visualizar</p> 
+</div> 
+
+<!--Segunda caja-->
+<div id="caja2"> 
+	<h2 class="titulo2">Hojas de estilo CSS [En impresora] </h2>
+	<h3 class="autor2">Por Pedro Guerrero</h3>
+	<p class="cuerpo2">Utilizar hojas de estilo otorga esta flexibilidad creativa de poder usar estilos diferentes en función del medio o el dispositivo sobre el que se va a visualizar</p> 
+</div>
+</body>
+</html> 

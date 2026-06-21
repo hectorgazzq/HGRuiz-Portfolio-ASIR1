@@ -1,0 +1,21 @@
+﻿/* Hoja de estilo print12.css */ 
+div#caja2 { 
+	padding: 10px; 
+	width: 70%; 
+	background-color: yellow;
+} 
+.titulo2 { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00f; 
+	text-transform: uppercase; 
+} 
+.autor2 { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f00; 
+} 
+.cuerpo2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px; 
+	color: #050; 
+}
+

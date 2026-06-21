@@ -1,0 +1,21 @@
+﻿
+.titulo { 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase; 
+	color: #000; 
+	font-style: normal; 
+	text-align: center; 
+	background-color: cyan;
+}
+.autor { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666; 
+	font-weight: lighter; 
+	text-align: center;
+	background-color: yellow;
+} 
+.cuerpo { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333; 
+	background-color: white;
+}

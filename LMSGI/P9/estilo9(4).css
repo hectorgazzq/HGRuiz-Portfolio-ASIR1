@@ -1,0 +1,8 @@
+@import url('../P8/ParaPantalla(1).css') screen;
+@import url('../P8/ParaImpresora(1).css') print;
+@import url('../P8/ParaTablet(1).css') handheld;
+
+p {
+    color: #f00;
+    font-size: 40px;
+}

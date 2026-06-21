@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewport</title>
+    <style type="text/css">
+        div#capa1{
+            background-color: red;
+            width: 500px;
+            height: 500px;
+            margin-bottom: 100px;
+        }
+
+        div#capa1 img#imagen1{
+            /*width: 100px;*/
+            height: 50vh;
+            width: 100vw;
+        }
+
+        /*capa con medida absoluta y contenido con %*/
+        div#capa2 {
+            background-color: green;
+            width: 500px;
+            height: 500px;
+            margin-bottom: 100px;
+        }
+
+        div#capa2 img#imagen2 {
+            /*width: 100px;*/
+            height: 50%;
+            width: 100%;
+        }
+        /*capa con viewport y contenido con %*/
+        div#capa3 {
+            background-color: blue;
+            width: 50vw;
+            height: 50vh;
+            margin-bottom: 100px;
+        }
+
+        div#capa3 img#imagen3 {
+            /*width: 100px*/
+            height: 50%;
+            width: 100%;
+        }
+
+        /*Centrar texto a lo alto*/
+        div#capa4 {
+            background-color: yellow;
+            width: 50vw;
+            height: 50vh;
+            margin-bottom: 100px;
+        }
+
+        div#capa4 p#texto4 {
+            /* width:  1000px; */
+            line-height: 50vh;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div id="capa1">
+
+        <img id="imagen1" src="paisaje01.png">
+
+    </div>
+	<div id="capa2">
+
+        <img id="imagen2" src="paisaje01.png">
+
+    </div>
+	<div id="capa3">
+
+		<img id="imagen3" src="paisaje01.png">
+
+
+
+    </div>
+	<div id="capa4">
+
+
+		<p id="texto4">Hola, buenos días</p>
+
+
+    </div>
+
+  
+</body>
+</html>

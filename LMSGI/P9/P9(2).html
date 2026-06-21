@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>Práctica 9(2): Ejemplo de estilos CSS para varios medios</title>
+<meta charset="utf-8">
+<style type="text/css">
+    @media all {
+
+        body {
+            font-size: 100px;
+        }
+    }
+
+    @media screen, print, handheld {
+        body {
+            background-color: #ffc;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    @media screen {
+        body {
+            color: #00f;
+        }
+        p {
+            text-decoration: underline;
+        }
+    }
+
+    @media print, handheld {
+        body{
+            color: #000;
+        }
+    }
+</style>
+</head> 
+<body>
+<p>Integración de hojas de estilo en el documento</p> 
+<p>Los estilos CSS</p> 
+</body>
+</html> 
+
+

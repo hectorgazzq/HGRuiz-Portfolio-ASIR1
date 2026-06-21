@@ -1,0 +1,26 @@
+p {
+    color: white;                
+    font-size: 40px;           
+    background-color: black;       
+    font-family: "Times New Roman", serif; 
+}
+
+#parrafo2 {
+    font-style: italic;
+}
+
+#parrafo3 {
+    font-style: oblique;
+}
+
+#parrafo4 {
+    font-weight: bold;
+}
+
+#parrafo5 {
+    font-weight: 700;
+}
+
+#parrafo6 {
+    font-weight: lighter;
+}

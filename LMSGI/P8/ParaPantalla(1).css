@@ -1,0 +1,9 @@
+body {
+    background: #ffc;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #00f;
+}
+p {
+    text-decoration: underline;
+}

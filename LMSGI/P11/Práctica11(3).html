@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html> 
+<html>
+<head> 
+<title>Ejercicio 11(3)</title> 
+<meta charset="utf-8">
+<style type="text/css"> 
+div { 
+border-width: 5px;
+border-style:dotted;
+border-color: orange;
+}
+p { 
+color: green; 
+font-size: 24px;
+border-style:dashed;
+border-color: #E83B59;
+}
+strong {
+color: rgb(245,67,255);
+background-color:rgba(0,45,200,1);
+}
+em {
+color: rgb(50%,42%,80%);
+background-color:rgba(200,5,25,10%);
+}
+
+/*
+hsl(x,x,x)
+Primer valor:El valor h es el matiz de color, con un valor de 0deg a 360deg.0 es rojo, 120 es verde, y 240 es azul.
+Segundo valor: La cifra s es el porcentaje de saturación, de 0% a 100%. 0% means a shade of gray, and 100% is the full color.
+Tercer valor: La cifra l es el porcentaje de luminosidad, de 0% a 100%.0% is black, 50% is neither light or dark, 100% is white
+hsla(x,x,x/x)
+Cuarto valor: transparencia entre 0 y 1
+*/
+span#a{
+
+background-color: hsl(30, 100%, 50%);/* hue (gama de color), saturación y luminosidad*/
+
+}
+span#b{
+
+background-color: hsla(30, 100%, 50%, 0.6);/* hue (color), saturación y luminosidad y transparencia*/
+
+}
+
+
+</style>
+</head> 
+<body>
+<div>Bancos y cajas colocaron 12.552 millones en preferentes a pequeños ahorradores
+Las entidades financieras españolas colocaron un total de 12.552 millones de euros en participaciones preferentes entre inversores minoristas en el periodo que abarca entre los años 2008 y 2011. 
+<p>Según los datos recopilados por Europa Press del informe de la Comisión de Seguimiento sobre comercialización de instrumentos híbridos de capital y deuda subordinada, 
+en 2008 <strong>BBVA</strong> colocó un total de <em>1.000 millones</em> entre <span id="a">inversores</span> <span id="b">minoristas</span>.</p>
+</div>
+</body> 
+</html> 

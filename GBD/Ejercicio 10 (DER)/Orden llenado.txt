@@ -1,0 +1,5 @@
+1. tblPelícula
+2. tblActores
+3. tblDirector
+4. tblEjemplares
+5. tblSocios

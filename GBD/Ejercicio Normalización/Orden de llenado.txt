@@ -1,0 +1,4 @@
+tbl_equipos
+tbl_proyectos
+tbl_tecnicos
+tbl_equipos de proyectos
